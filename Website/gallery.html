@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A gallery celebrating accessible, welcoming, and inclusive community moments.">
+  <title>Gallery | SpecialNeeds Wonders</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/pages.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+  <script src="js/main.js" defer></script><script src="js/gallery.js" defer></script>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+  <header class="site-header"><div class="nav-shell">
+    <a class="brand" href="index.html">SpecialNeeds Wonders</a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation menu"><span></span><span></span><span></span></button>
+    <nav class="primary-nav" id="primary-navigation" aria-label="Main navigation"><ul>
+      <li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="contact.html">Contact</a></li><li><a href="faq.html">FAQ</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="resources.html">Resources</a></li>
+      <li><details class="nav-dropdown"><summary>Categories</summary><ul class="dropdown-menu"><li><a href="categories/index.html">All Categories</a></li><li><a href="categories/autism.html">Autism Spectrum Disorder</a></li><li><a href="categories/down-syndrome.html">Down Syndrome</a></li><li><a href="categories/adhd.html">ADHD</a></li><li><a href="categories/physical-disabilities.html">Physical Disabilities</a></li><li><a href="categories/learning-disabilities.html">Learning Disabilities</a></li><li><a href="categories/dyslexia.html">Dyslexia</a></li><li><a href="categories/hydrocephalus.html">Hydrocephalus</a></li></ul></details></li>
+    </ul></nav>
+  </div></header>
+  <main id="main">
+    <section class="hero-category gallery-hero" aria-labelledby="page-title"><div class="container"><h1 id="page-title">Moments of Inclusion</h1><p>Explore artwork and images celebrating disability awareness, creativity, and inclusion. Browse the slides or select an image to view it larger.</p></div></section>
+    <section class="section container" aria-labelledby="gallery-title">
+      <div class="section-heading"><h2 id="gallery-title">Our Gallery</h2><p>A collection of images and artwork shared with this website.</p></div>
+      <div id="galleryCarousel" class="carousel slide gallery-carousel" data-bs-interval="false" role="region" aria-roledescription="carousel" aria-label="Inclusive community photo gallery">
+        <div class="carousel-inner"></div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel" data-bs-slide="prev" aria-label="Previous gallery slide">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel" data-bs-slide="next" aria-label="Next gallery slide">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span>
+        </button>
+        <div class="carousel-indicators"></div>
+      </div>
+    </section>
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Gallery image viewer" hidden>
+      <div class="lightbox-content">
+        <button class="lightbox-close" type="button" aria-label="Close image viewer">×</button>
+        <button class="lightbox-prev" type="button" aria-label="Previous image">‹</button>
+        <figure><img src="assets/images/community-photo-01.jpg" alt=""><figcaption></figcaption></figure>
+        <button class="lightbox-next" type="button" aria-label="Next image">›</button>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer"><div class="container"><div class="footer-grid"><div><h2>SpecialNeeds Wonders</h2><p>Every mind is a wonder. We share knowledge that supports belonging, understanding, and inclusion.</p></div><div><h3>Quick links</h3><ul class="footer-links"><li><a href="about.html">About Us</a></li><li><a href="categories/index.html">Categories</a></li><li><a href="resources.html">Resources</a></li><li><a href="contact.html">Contact</a></li></ul></div><div><h3>Connect</h3><ul class="social-links"><li><a href="#" aria-label="Placeholder Facebook page"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 21v-8h2.7l.4-3.1h-3.1v-2c0-.9.3-1.5 1.6-1.5h1.7V3.6c-.3 0-1.3-.1-2.4-.1-2.4 0-4.1 1.5-4.1 4.2v2.3H7.6v3.1h2.7v8h3.2z"/></svg></a></li><li><a href="#" aria-label="Placeholder Instagram page"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/></svg></a></li><li><a href="#" aria-label="Placeholder LinkedIn page"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3a2 2 0 1 1 0 4 2 2 0 0 1 0-4zM3.2 8.5h3.6V21H3.2zM9 8.5h3.4v1.7h.1A3.8 3.8 0 0 1 16 8.2c3.7 0 4.4 2.4 4.4 5.5V21h-3.6v-6.5c0-1.5 0-3.4-2.1-3.4s-2.4 1.6-2.4 3.3V21H9z"/></svg></a></li></ul></div></div><div class="footer-bottom"><span>© <span id="current-year"></span> SpecialNeeds Wonders</span><a href="#main">Back to top ↑</a></div></div></footer>
+</body>
+</html>
